@@ -31,6 +31,6 @@ formElement.addEventListener("submit", (event) => {
 });
 
 
-selectCurrency.addEventListener("click", () => {
-    amountElement.value = "";
+selectCurrency.addEventListener("change", () => {
+    resultElement.innerHTML = "";
 })
