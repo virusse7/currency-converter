@@ -6,7 +6,9 @@
 ## DEMO
 Link to [converter](!https://virusse7.github.io/currency-converter/).
 
-### Used functions:
-
+### Used technologies:
+- HTML
+- CSS
+- JavaScirpt
 
 ###### The project is not updated from: 23.07.23
