@@ -7,7 +7,7 @@
 Link to [converter](!https://virusse7.github.io/currency-converter/).
 
 ## Description:
-In this project you can calcute from polish zloty how much can you get money in currencies:
+In this project we can calcute from polish zloty how much can we get money in currencies:
 - Ars
 - Eur
 - Usd 
@@ -18,4 +18,4 @@ In this project you can calcute from polish zloty how much can you get money in 
 - JavaScirpt
 - BEM 
 
-###### The project is not updated from: 23.07.23
+###### The project is not supported from: 23.07.23
