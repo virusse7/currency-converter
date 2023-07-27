@@ -38,7 +38,6 @@
 
     const updateResult = () => {
         const amountElement = document.querySelector(".js-amount")
-
         const amount = amountElement.value;
         const currency = selectCurrency.value;
         const result = calculateResult(amount, currency);
