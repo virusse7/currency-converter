@@ -18,4 +18,4 @@ In this project we can calcute from polish zloty how much can we get money in cu
 - JavaScirpt
 - BEM 
 
-###### The project is not supported from: 23.07.23
+###### Exchange rate is not updated from: 23.07.23
