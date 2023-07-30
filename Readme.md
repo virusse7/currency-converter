@@ -12,6 +12,8 @@ In this project we can calcute from polish zloty how much can we get money in cu
 - Eur
 - Usd 
 
+It's simple converter using switch operator to calculate result.
+
 ### Used technologies:
 - HTML
 - CSS
