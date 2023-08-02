@@ -21,22 +21,29 @@
         };
     };
 
-    const onFormSubmit = (event) => {
+    const onFormSubmit = (event, selectCurrency) => {
         event.preventDefault();
 
-        const selectCurrency = document.querySelector(".js-selectCurrency")
-        const resultElement = document.querySelector(".js-result")
-        const amountElement = document.querySelector(".js-amount")
+        const resultElement = document.querySelector(".js-result");
+        const amountElement = document.querySelector(".js-amount");
         const amount = amountElement.value;
         const currency = selectCurrency.value;
         const result = calculateResult(amount, currency);
 
         resultElement.innerHTML = ` ${result.toFixed(2)} ${currency}`;
+
+        selectCurrency.addEventListener("change", () => {
+            resultElement.innerText = "";
+        });
     };
 
     const init = () => {
         const formElement = document.querySelector(".js-form");
-        formElement.addEventListener("submit", onFormSubmit);
+        const selectCurrency = document.querySelector(".js-selectCurrency");
+
+        formElement.addEventListener("submit", (event) => {
+            onFormSubmit(event, selectCurrency)
+        });
 
         welcome();
     };
